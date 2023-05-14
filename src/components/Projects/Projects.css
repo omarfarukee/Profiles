@@ -1,0 +1,8 @@
+
+.projects-backs{
+    background:white;
+}
+.projects-backs.active{
+    background: linear-gradient(to bottom, rgb(34, 33, 33), rgb(253, 240, 240));
+    height: 100vh;
+}
