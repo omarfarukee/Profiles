@@ -8,7 +8,21 @@
 
 }
 
+.nav-ber{
+        background-color: transparent;
+        position: fixed;
+    }
+    .nav-ber.active{
+        background:rgb(86, 95, 95);
+
+    }
+
+.ber{
+        width: 400px;;
+}
+
 .btn-hov{
+        color: white;
         font-size: 25px;
         border: none;
         transition: width 0.2s, height 0.2s;
@@ -16,5 +30,14 @@
 
 .btn-hov:hover{
       font-size: 35px;
-      color:rgb(169, 218, 97);
+      color:rgb(102, 243, 46);
+      padding-bottom: 8px;
     }
+
+.first-div{
+        width:30%;
+        /* border: 1px solid red; */
+}
+.dev-width{
+        width:90%;
+}
