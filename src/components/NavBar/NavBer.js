@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import pic from '../../images/pngwing.com.png'
 import { FaHome, FaProjectDiagram, FaUserCog, FaPhone, FaFilePdf } from 'react-icons/fa';
+import {GiSkills } from 'react-icons/gi';
 import './NavBer.css'
 import { TypeAnimation } from 'react-type-animation';
 const NavBer = () => {
@@ -20,9 +21,10 @@ const NavBer = () => {
         <div className='backs-img'>
             <div className='flex justify-center p-3'> 
                 {/* <div><button className='text-3xl bg-primary rounded p-1 w-40'> omar--</button></div> */}
-                <div className={navber ? 'ber rounded-2xl shadow-2xl h-12 active nav-ber': 'ber rounded-2xl shadow-2xl h-12 border'}>
+                <div className={navber ? 'ber rounded-2xl shadow-2xl h-12 active nav-ber fixed': 'ber rounded-2xl shadow-2xl h-12 border'}>
                     <div className='flex justify-between p-3 ml-3 mr-3'>
                         <button className='' title='Home'><FaHome className='btn-hov'></FaHome></button>
+                        <button className='' title='My Skills'><GiSkills className='btn-hov'></GiSkills></button>
                         <button className='' title='My Projects'><FaProjectDiagram className='btn-hov'></FaProjectDiagram></button>
                         <button className='' title='About Me'><FaUserCog className='btn-hov'></FaUserCog></button>
                         <button className='' title='My resume'><FaFilePdf className='btn-hov'></FaFilePdf></button>
@@ -37,7 +39,7 @@ const NavBer = () => {
             <div className='mt-32'>
                 <div className='flex justify-between dev-width'>
                     <div className='first-div ml-28'>
-                        <h1 className='text-6xl text-green-500 font-extrabold text-white'>
+                        <h1 className='text-6xl text-green-500 font-extrabold'>
                             <TypeAnimation
                                 sequence={[
                                     'Hello',
@@ -70,7 +72,6 @@ const NavBer = () => {
 
                 </div>
             </div>
-
 
         </div>
     );
