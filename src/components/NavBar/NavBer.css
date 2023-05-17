@@ -16,8 +16,8 @@ body{
         background-color: transparent;
       
     }
-    .nav-ber.active{
-        background:rgb(86, 95, 95);
+.nav-ber.active{
+        /* background:rgb(86, 95, 95); */
         
     }
 .icons{
@@ -26,18 +26,23 @@ body{
         padding: 12px;
         margin-left: 12px ;
         margin-right: 12px;
+        background: transparent;
+        width: 450px;
 }
 .icons button {
         margin-bottom: 20px;
 }
 .icons.active{
+        width: 55px;
         display: flex;
         flex-direction: column;
+        background:rgb(86, 95, 95);
+        border-radius: 20px;
 }
 
-.ber{
-        width: 450px;;
-}
+/* .ber{
+        width: 450px;
+} */
 
 .btn-hov{
         color: white;
