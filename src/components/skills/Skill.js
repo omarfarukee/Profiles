@@ -37,7 +37,7 @@ const Skill = () => {
                     </div>
 
                     <div>
-                        <img className='w-36 ml-20 image-container1' src={pic2} alt="" />
+                        <img className='w-36 ml-20 image-container2' src={pic2} alt="" />
 
                         <div class="skill_bar w-80 p-3 shadow-xl rounded-md">
                             <div class="info flex justify-between">
@@ -51,7 +51,7 @@ const Skill = () => {
                     </div>
 
                     <div>
-                        <img className='w-36 ml-20 image-container1 bottom-' src={pic3} alt="" />
+                        <img className='w-36 ml-20 image-container3 bottom-' src={pic3} alt="" />
                         <div class="skill_bar w-80 p-3 shadow-xl rounded-md">
                             <div class="info flex justify-between">
                                 <p className='font-bold'>Java-Script</p>
@@ -64,7 +64,20 @@ const Skill = () => {
                     </div>
 
                     <div>
-                        <img className='w-36 ml-20 image-container1' src={pic4} alt="" />
+                        <img className='w-36 ml-20 image-container4' src={pic5} alt="" />
+                        <div class="skill_bar w-80  p-3 shadow-xl rounded-md">
+                            <div class="info flex justify-between ">
+                                <p className='font-bold'>TailWind</p>
+                                <p className='font-bold'>90%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="tail"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <img className='w-36 ml-20 image-container5' src={pic4} alt="" />
                         <div class="skill_bar w-80 p-3 shadow-xl rounded-md">
                             <div class="info flex justify-between">
                                 <p className='font-bold'>Bootstrap</p>
@@ -75,24 +88,8 @@ const Skill = () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div>
-                        <img className='w-36 ml-20 image-container1' src={pic5} alt="" />
-                        <div class="skill_bar w-80  p-3 shadow-xl rounded-md">
-                            <div class="info flex justify-between ">
-                                <p className='font-bold'>TailWin</p>
-                                <p className='font-bold'>90%</p>
-                            </div>
-                            <div class="bar">
-                                <span class="tail"></span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <img className='w-36 ml-20 image-container1' src={pic6} alt="" />
+                        <img className='w-36 ml-20 image-container-degree' src={pic6} alt="" />
                         <div class="skill_bar w-80 p-3 shadow-xl rounded-md">
                             <div class="info flex justify-between">
                                 <p className='font-bold'>React</p>
@@ -105,7 +102,7 @@ const Skill = () => {
                     </div>
 
                     <div>
-                        <img className='w-36 ml-20 image-container1' src={pic7} alt="" />
+                        <img className='w-36 ml-20 image-container3' src={pic7} alt="" />
                         <div class="skill_bar w-80 p-3 shadow-xl rounded-md">
                             <div class="info flex justify-between">
                                 <p className='font-bold'>MongoDB</p>
@@ -118,7 +115,7 @@ const Skill = () => {
                     </div>
 
                     <div>
-                        <img className=' w-60  h-40 ml-10 image-container1 mt-2' src={pic8} alt="" />
+                        <img className=' w-60  h-40 ml-10 image-container2 mt-2' src={pic8} alt="" />
                         <div class="skill_bar w-80 p-3 shadow-xl rounded-md">
                             <div class="info flex justify-between">
                                 <p className='font-bold'>Firebase</p>
@@ -143,7 +140,7 @@ const Skill = () => {
                         </div>
                     </div>
                     <div>
-                    <img className=' w-36 ml-20 image-container1 mt-6' src={pic10} alt="" />
+                        <img className=' w-36 ml-20 image-container3 mt-6' src={pic10} alt="" />
                         <div class="skill_bar w-80  p-3 shadow-xl rounded-md">
                             <div class="info flex justify-between">
                                 <p className='font-bold'>Daisy UI</p>
@@ -155,19 +152,19 @@ const Skill = () => {
                         </div>
                     </div>
 
-            <div>
-                <img className=' w-36 ml-20 image-container1 mt-6' src={pic10} alt="" />
-                 <div class="skill_bar w-80 p-3 shadow-xl rounded-md">
-                        <div class="info flex justify-between">
-                            <p className='font-bold'>Express.js</p>
-                            <p className='font-bold'>85%</p>
-                        </div>
-                        <div class="bar">
-                            <span class="express"></span>
+                    <div>
+                        <img className=' w-36 ml-20 image-container2 mt-6' src={pic10} alt="" />
+                        <div class="skill_bar w-80 p-3 shadow-xl rounded-md">
+                            <div class="info flex justify-between">
+                                <p className='font-bold'>Express.js</p>
+                                <p className='font-bold'>85%</p>
+                            </div>
+                            <div class="bar">
+                                <span class="express"></span>
+                            </div>
                         </div>
                     </div>
-            </div>
-                   
+
 
                 </div>
             </div>

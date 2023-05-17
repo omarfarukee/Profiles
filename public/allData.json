@@ -1,42 +1,65 @@
 [
     {
     "_id": 1,
-    "name":"Frenzy Bike",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-    "liveSite":"//",
-    "client":"//",
+    "name":"Bike Frenzy",
+    "image":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/346116715_632240335449360_9092816776355524546_n.png?stp=dst-png_p1080x2048&_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=jPRrVrCaRnsAX-kdQdJ&_nc_ht=scontent.fdac15-1.fna&oh=03_AdTukvXa_vHxa3jEilkBT6DyHUvsxy6BcU2mxqtqDxqrcw&oe=648BE356",
+    "liveSite":"https://bike-frenzy-7b4f7.web.app/home",
+    "image2":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/346116715_632240335449360_9092816776355524546_n.png?stp=dst-png_p1080x2048&_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=jPRrVrCaRnsAX-kdQdJ&_nc_ht=scontent.fdac15-1.fna&oh=03_AdTukvXa_vHxa3jEilkBT6DyHUvsxy6BcU2mxqtqDxqrcw&oe=648BE356",
+    "client":"https://github.com/omarfarukee/frenzy-Bike",
+    "server":"https://github.com/omarfarukee/frenzy-bike-server"
+    },
+    {
+    "_id": 1,
+    "name":"Homs Food",
+    "image":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/345859962_643500671126754_2941916479689784085_n.png?stp=dst-png_s1080x2048&_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=RZPwRRWKTR4AX_dRB8e&_nc_ht=scontent.fdac15-1.fna&oh=03_AdTWgssE71OF6tDo55JzEeztpxs4g5RPd7l3utD8kJPpEQ&oe=648BCB21",
+    "liveSite":"https://homes-food.web.app/home",
+    "image2":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/345859962_643500671126754_2941916479689784085_n.png?stp=dst-png_s1080x2048&_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=RZPwRRWKTR4AX_dRB8e&_nc_ht=scontent.fdac15-1.fna&oh=03_AdTWgssE71OF6tDo55JzEeztpxs4g5RPd7l3utD8kJPpEQ&oe=648BCB21",
+    "client":"https://github.com/omarfarukee/Home-s-Food",
+    "server":"https://github.com/omarfarukee/Homes-food-server"
+    },
+    {
+    "_id": 1,
+    "name":"Digital Comp",
+    "image":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/345855821_951139055931670_3034442554883470288_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Oi9tbUB5Rm4AX8SDuFN&_nc_ht=scontent.fdac15-1.fna&oh=03_AdS2igDosR34OHPfT5mUAqploEHjj5OgDE312x-OOWtSBA&oe=648BD498",
+    "liveSite":"https://digital-comp.web.app/",
+    "image2":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/345855821_951139055931670_3034442554883470288_n.png?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Oi9tbUB5Rm4AX8SDuFN&_nc_ht=scontent.fdac15-1.fna&oh=03_AdS2igDosR34OHPfT5mUAqploEHjj5OgDE312x-OOWtSBA&oe=648BD498",
+    "client":"https://github.com/omarfarukee/digital-comp-client",
+    "server":"https://github.com/omarfarukee/digital-comp-server"
+    },
+    {
+    "_id": 1,
+    "name":"Glob Education",
+    "image":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/345854171_1576246966200738_7067323334542013981_n.png?stp=dst-png_s1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=dtEd6zXp2UIAX9XmHSj&_nc_ht=scontent.fdac15-1.fna&oh=03_AdTtAvSOzepIpB6FTSNCvdtbtwQLiVY9fRMw1d_sm2tJEQ&oe=648BC93C",
+    "liveSite":"https://glob-education-center-cdb614.netlify.app/",
+    "image2":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/345854171_1576246966200738_7067323334542013981_n.png?stp=dst-png_s1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=dtEd6zXp2UIAX9XmHSj&_nc_ht=scontent.fdac15-1.fna&oh=03_AdTtAvSOzepIpB6FTSNCvdtbtwQLiVY9fRMw1d_sm2tJEQ&oe=648BC93C",
+    "client":"https://github.com/omarfarukee/Glob-education",
     "server":"//"
     },
     {
     "_id": 1,
-    "name":"Frenzy Bike",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-    "liveSite":"//",
-    "client":"//",
+    "name":"Campus-sia",
+    "image":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/346121455_620689823302315_1138376711198067462_n.png?stp=dst-png_s1080x2048&_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=so3LNczOZ30AX8p3k8k&_nc_ht=scontent.fdac15-1.fna&oh=03_AdQNOoFSWD5u4PnhGXeKDUyHAQBkS9fJgIedvl-FAZs9ig&oe=648BE239",
+    "image2":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/346121455_620689823302315_1138376711198067462_n.png?stp=dst-png_s1080x2048&_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=so3LNczOZ30AX8p3k8k&_nc_ht=scontent.fdac15-1.fna&oh=03_AdQNOoFSWD5u4PnhGXeKDUyHAQBkS9fJgIedvl-FAZs9ig&oe=648BE239",
+    "liveSite":"https://campus-sia-396920.netlify.app/",
+    "client":"https://github.com/omarfarukee/campus-sia",
     "server":"//"
     },
     {
     "_id": 1,
-    "name":"Frenzy Bike",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-    "liveSite":"//",
-    "client":"//",
+    "name":"Quick Quiz detector",
+    "image":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/345858278_1436947570410917_5735066347388919275_n.png?stp=dst-png_p1080x2048&_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=GJA6Jsx0-SkAX8CY_iO&_nc_ht=scontent.fdac15-1.fna&oh=03_AdRFkxbrSQRecKIpXmcWZ1x26_bVkq57FbMlhPatA83uhg&oe=648BD498",
+    "image2":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/345858278_1436947570410917_5735066347388919275_n.png?stp=dst-png_p1080x2048&_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=GJA6Jsx0-SkAX8CY_iO&_nc_ht=scontent.fdac15-1.fna&oh=03_AdRFkxbrSQRecKIpXmcWZ1x26_bVkq57FbMlhPatA83uhg&oe=648BD498",
+    "liveSite":"https://cosmic-quick-quiz-detector-qui-55c193.netlify.app/home",
+    "client":"https://github.com/omarfarukee/Quick-Quiz-Detector",
     "server":"//"
     },
     {
     "_id": 1,
-    "name":"Frenzy Bike",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-    "liveSite":"//",
-    "client":"//",
-    "server":"//"
-    },
-    {
-    "_id": 1,
-    "name":"Frenzy Bike",
-    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-    "liveSite":"//",
-    "client":"//",
+    "name":"Convention",
+    "image":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/346118684_2651775964976583_8856632148254777334_n.png?stp=dst-png_s1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=x3KOHloue8cAX8O0QGV&_nc_ht=scontent.fdac15-1.fna&oh=03_AdRsPD9jr0c9demCTLsMH9V1rckaCKkj6XgUHBS4JNXohA&oe=648BBD45",
+    "image2":"https://scontent.fdac15-1.fna.fbcdn.net/v/t1.15752-9/346118684_2651775964976583_8856632148254777334_n.png?stp=dst-png_s1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=x3KOHloue8cAX8O0QGV&_nc_ht=scontent.fdac15-1.fna&oh=03_AdRsPD9jr0c9demCTLsMH9V1rckaCKkj6XgUHBS4JNXohA&oe=648BBD45",
+    "liveSite":"https://omarfarukee.github.io/convention-center/",
+    "client":"https://github.com/omarfarukee/convention-center",
     "server":"//"
     }
 ]

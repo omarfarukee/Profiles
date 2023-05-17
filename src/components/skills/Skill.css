@@ -140,7 +140,39 @@
 
 .image-container1 {
     
-    animation: moveUpDown 2s infinite ease-in-out;
+    animation: moveUpDown 4s infinite ease-in-out;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.image-container3 {
+    
+    animation: moveUpDown 4.3s infinite ease-in-out;
+  }
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.image-container4 {
+    
+    animation: moveUpDown 3.9s infinite ease-in-out;
   }
   
   @keyframes moveUpDown {
@@ -155,3 +187,50 @@
     }
   }
 
+  .image-container2 {
+    position: relative;
+    animation: moveRightLeft 4s infinite ease-in-out;
+  }
+  
+  @keyframes moveRightLeft {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  .image-container5 {
+    position: relative;
+    animation: moveRightLeft 4.3s infinite ease-in-out;
+  }
+  
+  @keyframes moveRightLeft {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .image-container-degree {
+    position: relative;
+    animation: rotate 5s infinite linear;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  

@@ -18,8 +18,22 @@ body{
     }
     .nav-ber.active{
         background:rgb(86, 95, 95);
-
+        
     }
+.icons{
+        display: flex;
+        justify-content: space-between;
+        padding: 12px;
+        margin-left: 12px ;
+        margin-right: 12px;
+}
+.icons button {
+        margin-bottom: 20px;
+}
+.icons.active{
+        display: flex;
+        flex-direction: column;
+}
 
 .ber{
         width: 450px;;
