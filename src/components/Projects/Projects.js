@@ -50,7 +50,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className='mt-24 '>
+        <div className='project-contain p-10' id='project' data-background='red'>
             <div className='flex justify-center mt-8 mb-5'>
                 <h1 className='text-3xl font-bold'>My Projects</h1>
             </div>

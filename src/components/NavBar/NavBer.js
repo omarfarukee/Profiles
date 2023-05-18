@@ -4,6 +4,8 @@ import { FaHome, FaProjectDiagram, FaUserCog, FaPhone, FaFilePdf } from 'react-i
 import {GiSkills } from 'react-icons/gi';
 import './NavBer.css'
 import { TypeAnimation } from 'react-type-animation';
+import Skill from '../skills/Skill';
+import Projects from '../Projects/Projects';
 
 const NavBer = () => {
 
@@ -30,19 +32,31 @@ const NavBer = () => {
         }
     }
     window.addEventListener('scroll', changeIcon)
+    const [berPosition, setBerPosition] = useState(false)
+
+    const changeBer = () => {
+        if(window.scrollY >= 100){
+            setIcon(true)
+        }
+        else{
+            setIcon(false)
+        }
+    }
+    window.addEventListener('scroll', changeBer)
     return (
+        <div id='home'>
         <div className='backs-img'>
-            <div className='flex justify-center p-3'> 
+            <div className={changeBer ? 'active position ': ''}> 
                 {/* <div><button className='text-3xl bg-primary rounded p-1 w-40'> omar--</button></div> */}
-                <div className={navber ? ' rounded-2xl shadow-2xl h-12 active nav-ber fixed': 'ber rounded-2xl shadow-2xl h-12 border'}>
+                <div className={navber ? ' rounded-2xl shadow-2xl h-12 active nav-ber ': 'ber rounded-lg shadow-2xl h-12 border'}>
                     <div className={icon ? 'icons active' : 'icons'}> 
                     {/* flex y-r justify-between p-3 ml-3 mr-3 */}
-                        <button className='' title='Home'><FaHome className='btn-hov'></FaHome></button>
-                        <button className='' title='My Skills'><GiSkills className='btn-hov'></GiSkills></button>
-                        <button className='' title='My Projects'><FaProjectDiagram className='btn-hov'></FaProjectDiagram></button>
-                        <button className='' title='About Me'><FaUserCog className='btn-hov'></FaUserCog></button>
-                        <button className='' title='My resume'><FaFilePdf className='btn-hov'></FaFilePdf></button>
-                        <button className='' title='Contact me'><FaPhone className='btn-hov'></FaPhone></button>
+                       <a href='#home'> <button className='' title='Home'><FaHome className='btn-hov'></FaHome></button></a>
+                     <a  href="#sk">  <button className='' title='My Skills'><GiSkills className='btn-hov'></GiSkills></button></a> 
+                     <a href='#project'>   <button className='' title='My Projects'><FaProjectDiagram className='btn-hov'></FaProjectDiagram></button></a>
+                       <a> <button className='' title='About Me'><FaUserCog className='btn-hov'></FaUserCog></button></a>
+                       <a> <button className='' title='My resume'><FaFilePdf className='btn-hov'></FaFilePdf></button></a>
+                       <a><button className='' title='Contact me'><FaPhone className='btn-hov'></FaPhone></button></a> 
 
                     </div>
 
@@ -50,7 +64,7 @@ const NavBer = () => {
                 {/* <div><button className='text-3xl bg-primary rounded p-1 w-40'> Resume</button></div> */}
             </div>
 
-            <div className='mt-32'>
+            <div className='mt-32 ml-20'>
                 <div className='flex justify-between dev-width'>
                     <div className='first-div ml-28'>
                         <h1 className='text-6xl text-green-500 font-extrabold'>
@@ -87,6 +101,8 @@ const NavBer = () => {
                 </div>
             </div>
 
+        </div>
+            
         </div>
     );
 };

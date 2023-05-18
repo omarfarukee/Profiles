@@ -15,7 +15,7 @@ const Skill = () => {
 
 
     return (
-        <div className='mb-10'>
+        <div className='p-10 contain' id='sk'>
             <div className='flex justify-center mt-8 mb-5'>
                 <h1 className='text-3xl font-bold'>My Skills</h1>
             </div>
